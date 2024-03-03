@@ -1,6 +1,5 @@
 import 'package:fast_app_base/common/common.dart';
 import 'package:fast_app_base/screen/dialog/d_andy_test.dart';
-import 'package:fast_app_base/screen/notification/s_notification.dart';
 import 'package:flutter/material.dart';
 
 class TtossAppBar extends StatefulWidget {
@@ -21,7 +20,7 @@ class _TtossAppBarState extends State<TtossAppBar> {
       height: 60,
       child: Row(
         children: [
-          Width(10),
+          const Width(10),
           Image.asset(
             "$basePath/icon/toss.png",
             height: 30,
